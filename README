@@ -1,0 +1,26 @@
+FP-growth algorithm c implement
+(passed under fedora11 and ubuntu10.04)
+
+Introduction
+===
+
+FP-growth is an algorithm for finding frequent item sets.
+This is an implement using linux c, and just for experiment.
+
+How to build
+===
+
+$cd ${fpgrowth.path}
+$make
+
+How to run
+===
+
+$cd ${fpgrowth.path}
+$./fpgrowth -i datafile -t support -n transnum -m itemsnum [-o outputfile]
+
+About the data format
+===
+
+[transID1]	[itemsNUM1]	item1	item2	...	itemn
+[transID2]	[itemsNUM2]	item...
